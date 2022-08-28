@@ -31,7 +31,7 @@ const controls = [
             defaultOptions.quality = {
                             default: "default"
                         };
-const player = new Plyr('video', defaultOptions,);
+const player = new Plyr('video', defaultOptions);
 
 // Expose player so it can be used from the console
 window.player = player;
