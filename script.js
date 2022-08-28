@@ -31,7 +31,7 @@ const controls = [
             defaultOptions.quality = {
                             default: "default"
                         };
-const player = new Plyr('video', defaultOptions, { captions: { active: true }, ads: { enabled: true, tagUrl: 'https://syndication.realsrv.com/splash.php?idzone=4774980' } });
+const player = new Plyr('video', { defaultOptions, captions: { active: true }, ads: { enabled: true, tagUrl: 'https://syndication.realsrv.com/splash.php?idzone=4774980' } });
 
 // Expose player so it can be used from the console
 window.player = player;
